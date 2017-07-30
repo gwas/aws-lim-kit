@@ -1,0 +1,10 @@
+{
+
+	"dev":{
+	
+		"s3_bucket": "isis-dev",
+       		"django_settings": "t.settings" 
+      	}
+
+
+}
