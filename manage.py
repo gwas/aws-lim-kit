@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 import os
 import sys
+
+
+# i am just testing the rsa key stuff. 
+
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "t.settings")
     try:
