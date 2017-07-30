@@ -25,8 +25,7 @@ SECRET_KEY = '9olmbs-@-gwcp-o7+)y4t^6q-m9s7g##0r=9gtq%smt_k9*7ks'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['192.168.128.229', 'localhost', '127.0.0.1']
 
 # Application definition
 
@@ -67,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'test12.wsgi.application'
+WSGI_APPLICATION = 't.wsgi.application'
 
 
 # Database
